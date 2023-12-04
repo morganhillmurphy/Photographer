@@ -1,0 +1,229 @@
+.top-bar {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin-top: 20px;
+    margin-left: 20px;
+    z-index: 100;
+}
+
+a:link {
+    color: black;
+    font-style: normal;
+}
+
+a:hover {
+    color: rgb(120, 0, 0);
+}
+
+a:visited {
+    color: rgb(120  , 0, 0);
+}
+
+body {
+    padding-left: 40px;
+    padding-right: 20px;
+    background-image: url();
+    padding-bottom: 50px;
+}
+
+.logo-black {
+    height: 60px;
+}
+.main-img {
+    width: 500px;
+}
+
+.car-neon {
+    height: 20px;
+}
+
+.mode-box {
+    flex: 1;
+    min-width: 100px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.mode-box-dark {
+    flex: 1;
+    min-width: 100px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 15px;
+    font-size: 20px;
+    color: white;
+}
+
+.spacer-box {
+    flex: 1;
+}
+
+.info-box {
+    display: flex;
+    flex: 2;
+    justify-content: space-between;
+    min-width: 200px;
+}
+
+.contact-box {
+    display: flex;
+    flex: 1;
+    min-width: 100px;
+}
+.about-logo {
+    height: 40px;
+}
+
+.index-logo {
+    height: 40px;
+}
+
+.index-box {
+    flex: 1;
+}
+
+.about-box {
+    flex: 1;
+    margin-left: 60px;
+    margin-right: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+   justify-content: space-between;
+   padding-top: 20px;
+   left: 0;
+   right: 0;
+}
+
+.left-box {
+    flex: 1
+}
+
+.middle-box {
+    flex: 1
+
+}
+
+.right-box {
+    flex: 2;
+    text-align: right;
+    font-size: 17px;
+}
+
+.white-text {
+    flex: 2;
+    text-align: right;
+    font-size: 17px;
+    color: white;
+}
+
+.sml-right-box {
+    flex: 0.5;
+}
+
+.home-content {
+    margin-top: 74px;
+}
+
+.home-image {
+    height: 800px;
+}
+
+.sml-home-image {
+    height: 400px;
+    margin-right: 20px;
+}
+
+.sml-uppers-image {
+    height: 400px;
+    margin-right: 50px;
+}
+
+.uppers-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    font-family: roboto, ariel
+}
+
+.box-container {
+    z-index: 10;
+}
+
+.bg-img {
+    width: 100%;
+    z-index: 1;
+}
+
+.container {
+            display: flex;
+            flex-direction: row;
+           justify-content: space-between;
+           padding-top: 20px;
+           left: 0;
+           right: 0;
+        }
+
+        .left-box {
+            flex: 1;
+
+        }
+
+        .middle-box {
+            flex: 1
+
+        }
+
+        .right-box {
+            flex: 1;
+        }
+
+        .home-content {
+            margin-top: 150px;
+        }
+
+.summer-container {
+    display: flex;
+    flex-direction: row;
+   justify-content: space-around;
+   padding-top: 20px;
+   left: 0;
+   right: 0;
+}
+.summer-left-image {
+    flex: 1;
+    height: 350px;
+}
+
+.summer-left-box {
+    margin-right: 40px;
+
+}
+
+.iel-right-box {
+    margin-top: 100px;
+}
+
+.iel-img {
+    height: 450px;
+}
+
+.yellow-darcey-box {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.darcey-yellow-image {
+    height: 750px;
+}
