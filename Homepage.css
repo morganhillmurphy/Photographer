@@ -7,6 +7,7 @@
     left: 0;
     margin-top: 20px;
     margin-left: 20px;
+    margin-right: 100px;
     z-index: 100;
 }
 
@@ -27,7 +28,7 @@ body {
     padding-left: 40px;
     padding-right: 20px;
     background-image: url();
-    padding-bottom: 50px;
+    padding-bottom: 100px;
 }
 
 .logo-black {
@@ -45,14 +46,16 @@ body {
     flex: 1;
     min-width: 100px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 40px;
     margin-top: 15px;
     font-size: 20px;
 }
 
-.mode-box-dark {
+.dark-mode-box {
     flex: 1;
     min-width: 100px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 40px;
     margin-top: 15px;
     font-size: 20px;
     color: white;
@@ -105,6 +108,11 @@ body {
     flex: 1
 }
 
+.pei-left-box {
+    flex: 1;
+padding-right: 20px;
+}
+
 .middle-box {
     flex: 1
 
@@ -116,6 +124,13 @@ body {
     font-size: 17px;
 }
 
+.lula-right-box {
+    flex: 2;
+    text-align: right;
+    max-width: 450px;
+    min-width: 300px;
+}
+
 .white-text {
     flex: 2;
     text-align: right;
@@ -124,7 +139,7 @@ body {
 }
 
 .sml-right-box {
-    flex: 0.5;
+    flex: 0.2;
 }
 
 .home-content {
@@ -226,4 +241,117 @@ p {
 
 .darcey-yellow-image {
     height: 750px;
+}
+
+/* QUOTE */
+
+.tea-container {
+    display: flex;
+    flex-direction: row;
+   justify-content: space-between;
+   margin-top: 70px;
+   padding-top: 20px;
+   left: 0;
+   right: 0;
+   margin-left: 25px;
+}
+
+.dark-tea-container {
+    display: flex;
+    flex-direction: row;
+   justify-content: space-between;
+   margin-top: 70px;
+   padding-top: 20px;
+   left: 0;
+   right: 0;
+   margin-left: 25px;
+   color: white;
+}
+
+.quote-container {
+    display: flex;
+    margin-top: 40px;
+    font-family: didot;
+}
+
+.quote-div-left {
+    flex: 2;
+}
+
+.quote-div-right {
+    flex: 3;
+}
+
+.fiorucci-bottom-image {
+    height: 600px;
+
+}
+
+/* ABOUT PAGE SECTION */
+
+.about-page-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 900px;
+}
+
+.about-content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    justify-content: center;
+
+}
+
+.about-left-box {
+    flex: 1;
+
+}
+
+.about-right-box {
+    flex: 1;
+}
+
+.top-about-spacer {
+    flex: 2;
+    text-align: center;
+    font-family: didot
+}
+
+.mail-to-box {
+    flex: 0.2;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.ig-box {
+    flex: 1;
+    text-align: center;
+}
+
+.about-content {
+    flex: 1s;
+}
+
+.bottom-about-spacer {
+    flex: 1;
+}
+
+.about-content-img {
+    height: 350px;
+}
+
+.arnaldo-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.arnaldo-top {
+    flex: 0.5;
+}
+
+.arnaldo-bottom {
+    flex: 1;
 }
