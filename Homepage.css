@@ -329,10 +329,13 @@ p {
 .ig-box {
     flex: 1;
     text-align: center;
+    color: black;
 }
 
 .about-content {
     flex: 1s;
+    color: black;
+    
 }
 
 .bottom-about-spacer {
