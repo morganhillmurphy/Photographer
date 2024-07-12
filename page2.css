@@ -1,0 +1,244 @@
+.top-bar {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 100px;
+    z-index: 100;
+}
+
+a:link {
+    color: black;
+    font-style: normal;
+}
+
+a:hover {
+    color: rgb(120, 0, 0);
+}
+
+a:visited {
+    color: rgb(120  , 0, 0);
+}
+
+.left-image {
+    height: 400px;
+    }
+
+body {
+    padding-left: 40px;
+    padding-right: 20px;
+
+    padding-bottom: 100px;
+}
+
+.one-black {
+    height: 30px;
+    
+}
+
+.two-black {
+    height: 30px;
+}   
+
+.number-spacer {
+    width: 30px;
+}
+
+.logo-black {
+    height: 60px;
+}
+.main-img {
+    width: 500px;
+}   
+
+.mode-box {
+    flex: 1;
+    min-width: 100px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 40px;
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.dark-mode-box {
+    flex: 1;
+    min-width: 100px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 40px;
+    margin-top: 15px;
+    font-size: 20px;
+    color: white;
+}
+
+.spacer-box {
+    flex: 1;
+}
+
+.info-box {
+    display: flex;
+    flex: 2;
+    justify-content: space-between;
+    min-width: 200px;
+}
+
+.contact-box {
+    display: flex;
+    flex: 1;
+    min-width: 100px;
+
+}
+.about-logo {
+    height: 40px;
+}
+
+.index-logo {
+    height: 40px;
+}
+
+.index-box {
+    flex: 1
+}
+
+.about-box {
+    flex: 1;
+    margin-left: 60px;
+    margin-right: 20px;
+}
+
+.home-content {
+    margin-top: 50px;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+   justify-content: space-between;
+   padding-top: 110px;
+   left: 0;
+   right: 0;
+}
+
+.container-3 {
+    display: flex;
+}
+
+.middle-box {
+    display: flex;
+}
+
+.left-box {
+    display: flex;
+}
+
+.left-box-3 {
+}
+
+.right-box {
+    height: 200px;
+    display: flex;
+}
+
+.middle-box-3 {
+}
+
+.right-box-3 {
+}
+
+.left-border-div {
+    flex: 1;
+
+}
+
+.body-div {
+    flex: 10;
+}
+
+.right-border-div {
+    flex: 1;
+
+}
+
+.border-container {
+    display: flex;
+}
+/* Image CSS */
+
+.milk-soap {
+    height: 500px;
+    padding-top: 80px;
+}
+
+.charlie-mc {
+    height: 600px;
+}
+
+.greek-flower {
+    height: 400px;
+}
+
+.berghaus-09 {
+    height: 800px;
+}
+
+.berghaus-10 {
+    height: 400px;
+}
+
+.zellweger {
+    height: 600px;
+}
+
+.home-image {
+    height: 800px;
+}
+
+.green-corner {
+    height: 400px
+}
+
+.lake-tree {
+    height: 500px;
+}
+
+.casa-tuena-sil {
+    height: 400px;
+}
+
+.bee-hands {
+    height: 800px;
+    align-content: center;
+}
+
+.ruby-grass {
+    height: 600px;
+}
+
+.lumpy-field {
+    height: 400px;
+}
+
+.kazami-141 {
+    height: 600px;
+}
+
+.teeth-2 {
+    height: 700px;
+}
+
+.teeth-middle-box {
+    align-content: center;
+}
+
+.teeth-4 {
+    height: 350px;
+    align-self: left;
+}
+
+.teeth-11 {
+    height: 800px;
+}
