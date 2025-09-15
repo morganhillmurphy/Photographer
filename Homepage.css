@@ -110,18 +110,30 @@ body {
 
 .container {
     display: flex;
-    width: 100%;
-    max-width: 2000px;
+    object-fit: contain;
+    width: auto;
+    max-width: 1000px;
     margin: 0 auto;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around
     padding-top: 20px;
     left: 0;
     right: 0;
 }
 
 .left-box {
+    display: flex;
+    flex: 1;
+    object-fit: contain;
+
+
+}
+
+.tea-left-box {
+    max-width: 450px;
+    min-width: 300px;
+    object-fit: contain;
 
 }
 
@@ -132,21 +144,26 @@ body {
 
 .middle-box {
     display: flex;
-    flex-wrap: wrap;
+    object-fit: contain;
+    flex-wrap: nowrap;
     width: 100%;
     max-width: 2000px;
 }
 
 .middle-box img {
+    display: flex;
     flex: 1 1 100%;
     width: 100%;
     height: auto;
 }
 
 .right-box {
-    flex: 0.5;
+    display: flex;
+    object-fit: contain;
+    flex: 1;
     text-align: right;
     font-size: 17px;
+
 }
 
 .lula-right-box {
@@ -161,6 +178,9 @@ body {
     text-align: right;
     font-size: 17px;
     color: white;
+    max-width: 450px;
+    min-width: 300px;
+
 }
 
 .sml-right-box {
@@ -171,6 +191,18 @@ body {
     margin-top: 100px;
 }
 
+.dwf_landscape_bed {
+    object-fit: contain;
+    max-width: 650px;
+    width: auto;
+}
+
+.dwf-double {
+    max-width: 1200px;
+    width: auto;
+    padding: 10px;
+}
+
 .home-image {
     object-fit: contain;
     max-height: 800px;
@@ -179,8 +211,32 @@ body {
 }
 
 .sml-home-image {
-    height: 400px;
+    object-fit: contain;
+    max-height: 400px;
+    width: auto;
     margin-right: 20px;
+}
+
+.pp-roses {
+    object-fit: contain;
+    max-width: 500px;
+    width: auto;
+}
+
+.uppers-cover {
+    object-fit: contain;
+    object-position: top;
+    max-width: 300px;
+    padding: 15px;
+    padding-left: 15px;
+    width: auto;
+}
+
+.gloved-image-10 {
+    object-fit: contain;
+    max-width: 500px;
+    width: auto;
+
 }
 
 .sml-uppers-image {
@@ -211,7 +267,7 @@ p {
     display: flex;
     flex-direction: row;
    justify-content: space-around;
-   padding-top: 20px;
+   padding-top: 40px;
    left: 0;
    right: 0;
 }
@@ -229,8 +285,16 @@ p {
     margin-top: 100px;
 }
 
+.dwf_press_card {
+    object-fit: contain;
+    max-width: 450px;
+    width: auto;
+}
+
 .iel-img {
-    height: 450px;
+    object-fit: contain;
+    max-width: 550px;
+    width: auto;
 }
 
 .yellow-darcey-box {
@@ -241,7 +305,16 @@ p {
 }
 
 .darcey-yellow-image {
-    height: 750px;
+    object-fit: contain;
+    max-width: 400px;
+    width: 100%;
+}
+
+.dwf-knit-door {
+    object-fit: contain;
+    max-width: 300px;
+    width: auto;
+    padding-left: 300px;
 }
 
 /* QUOTE */
@@ -252,6 +325,7 @@ p {
    justify-content: space-between;
    margin-top: 70px;
    padding-top: 20px;
+   padding-left: 30px;
    left: 0;
    right: 0;
    margin-left: 25px;
@@ -275,6 +349,49 @@ p {
     font-family: didot;
 }
 
+.pei-red {
+    object-fit: contain;
+    max-width: 550px;
+    width: auto;
+}
+
+.summer-stones {
+    object-fit: contain;
+    max-width: 350px;
+    width: auto;
+    padding: 10px;
+    padding-top: 50px;
+}
+
+.towel-window {
+    object-fit: contain;
+    width: 300px;
+    padding: 20px;
+    padding-left: 40px;
+}
+
+.fiorucci-milan-container {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.fiorucci-milan-bw {
+    object-fit: contain;
+    max-height: 800px;
+    width: auto;
+    padding: 10px;
+    padding-bottom: 30px;
+}
+
+.aa-light {
+    object-fit: contain;
+    max-width: 450px;
+    width: auto;
+}
+
 .quote-div-left {
     flex: 2;
 }
@@ -286,6 +403,12 @@ p {
 .fiorucci-bottom-image {
     height: 600px;
 
+}
+
+.fiorucci-triple {
+    object-fit: contain;
+    max-width: 900px;
+    width: auto;
 }
 
 /* ABOUT PAGE SECTION */
