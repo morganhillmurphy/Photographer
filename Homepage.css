@@ -35,7 +35,6 @@ body {
 }
 .logo-black {
     height: 20px
-    
 }
 
 .one-black {
@@ -120,10 +119,11 @@ body {
     margin: 0 auto;
     flex-wrap: nowrap;
     flex-direction: row;
-    justify-content: space-around
     padding-top: 20px;
-    left: 0;
-    right: 0;
+    padding-left: 0px;
+    padding-right: 0px;
+    justify-content: space-around
+
 }
 
 .left-box {
