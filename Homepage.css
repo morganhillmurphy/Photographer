@@ -30,8 +30,12 @@ body {
     padding-bottom: 100px;
 }
 
+.logo-box { 
+    justify-content: end;
+}
 .logo-black {
-    height: 60px;
+    height: 20px
+    
 }
 
 .one-black {
